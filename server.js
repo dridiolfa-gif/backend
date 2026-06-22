@@ -15,7 +15,7 @@ app.use(express.json());
 app.use("/api/books", require("./routes/books"));
 
 app.get("/", (req, res) => {
-  res.send("Book Recommendation API 📚");
+  res.send("Book Recommendation API  Backend📚");
 });
 
 const PORT = process.env.PORT || 5000;
